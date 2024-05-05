@@ -1,0 +1,26 @@
+**Packages**
+npm init -y
+npm i express cors dotenv nodemon mysql2 && npm i -D typescript tsc ts-node-dev @types/express @types/node @types/cors 
+
+**Status codes**
+1.200 OK: The request was successful, and the server has returned the requested data.
+2.201 Created: The request was successful, and a new resource was created as a result.
+3.204 No Content: The request was successful, but there is no data to return (e.g., in the case of a successful DELETE request).
+4.400 Bad Request: The server cannot understand the request due to a client error (e.g., malformed request syntax, invalid parameters).
+5.401 Unauthorized: The request requires user authentication, and the user has not provided valid credentials.
+5.403 Forbidden: The server understands the request, but the client does not have permission to access the requested resource.
+6.404 Not Found: The requested resource could not be found on the server.
+7.409 Conflict: The server has detected a conflict in the request (e.g., trying to create a resource that already exists).
+8.500 Internal Server Error: An unexpected error occurred on the server, and the server cannot fulfill the request.
+9.502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from an upstream server.
+10.503 Service Unavailable: The server is currently unable to handle the request due to temporary overloading or maintenance of the server.
+11.504 Gateway Timeout: The server, while acting as a gateway or proxy, did not receive a timely response from an upstream server.
+
+**Status codes**
+1. INTERNAL_SERVER_ERROR: An unexpected error occurred on the server.
+2. RESOURCE_NOT_FOUND: The requested resource could not be found.
+3. BAD_REQUEST: The client's request was malformed or invalid.
+4. UNAUTHORIZED: The client's request requires authentication, and the user hasn't provided valid credentials.
+5. FORBIDDEN: The client's request is valid, but the user doesn't have permission to access the requested resource.
+6. INVALID_INPUT: The client provided invalid input data in the request.
+7. DUPLICATE_RESOURCE: Attempted to create a resource that already exists.
