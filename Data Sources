@@ -1,0 +1,15 @@
+import { DataSource } from "typeorm";
+require("dotenv").config();
+
+export const appDataSource = new DataSource({
+  type: "mysql",
+  host: process.env.DB_HOST,
+  username: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
+  synchronize: false,
+  logging: false,
+  entities: [__dirname + "/../models/**/*.ts"],
+  // migrations: [__dirname + "/migrations/**/*.ts"],
+  subscribers: [],
+});
