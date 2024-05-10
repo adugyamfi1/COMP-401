@@ -1,0 +1,29 @@
+PORT=2001
+# DB_HOST=db4free.net
+# DB_USER=foreignfinds
+# DB_PASSWORD=VZ5!Q3Y_@WkS5FB
+# DB_DATABASE=foreignfinds
+
+DB_HOST=184.174.35.71
+DB_USER=dev
+DB_PASSWORD=ehealthdevteam
+DB_DATABASE=foreignfinds
+
+
+SMTP_HOST=gmail
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_EMAIL_ADDRESS=emilkin7@gmail.com
+SMTP_PASSWORD=qsmkyqjfuvvvzndy
+NO_REPLY=emilkin7@gmail.com
+
+
+SECRETE_KEY=ForeignFindsBcyrpt
+
+
+PUBLITIO_KEY=LBLxemAwckSBcqAfc74B #change later
+PUBLITIO_SECRETE=SBi9d5txyodsrLcrrsfDxclgD11J1Sz2 #change later
+
+
+
+#tebek67867@comsb.com
